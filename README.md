@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="[assets/sage_banner.png](https://github.com/user-attachments/assets/ea0d715a-031e-4775-88c4-ff836f484174)" alt="SAGE Banner" width="800">
+  <img src="https://github.com/user-attachments/assets/ea0d715a-031e-4775-88c4-ff836f484174" alt="SAGE Banner" width="800">
 </p>
 
 <h1 align="center">🦉 SAGE</h1>
@@ -42,8 +42,7 @@ It combines the **grounded retrieval** of [NotebookLM](https://notebooklm.google
 
 ## 🎬 Demo
 
-<video src="./demo.mp4" width = 1080 height = 720 controls>Demo Video</video>
-
+<video src="https://github.com/user-attachments/assets/9aa1934d-4845-43ec-a9f6-58d00fdbee7e" width = 1080 height = 720 controls>Demo Video</video>
 
 ---
 
@@ -65,32 +64,9 @@ It combines the **grounded retrieval** of [NotebookLM](https://notebooklm.google
 
 SAGE is built on a **LangGraph** multi-agent pipeline. Six specialized nodes handle distinct stages of the study process:
 
-<!-- ┌─────────────────────────────────────────────────────────────┐ -->
-<!-- │  PLACEHOLDER: Replace with a polished workflow diagram      │ -->
-<!-- │  e.g. a PNG/SVG exported from the Mermaid below, or a       │ -->
-<!-- │  custom diagram from Figma / draw.io                        │ -->
-<!-- └─────────────────────────────────────────────────────────────┘ -->
-
-```mermaid
-graph TD
-    Start([📋 User Topics]) --> Planner["🗺️ Planner Node<br/><i>Ollama · GLM-5</i>"]
-    Planner --> Retriever["🔍 Retriever Node<br/><i>NotebookLM MCP</i>"]
-    Retriever --> Evaluator{"🧪 Evaluator Node"}
-    Evaluator -- "Insufficient depth" --> Retriever
-    Evaluator -- "Depth OK ✓" --> Writer["✍️ Writer Node<br/><i>Ollama · GLM-5</i>"]
-    Writer --> Studio["🎨 Studio Node<br/><i>AI Infographics</i>"]
-    Studio --> Publisher["📦 Publisher Node<br/><i>Obsidian Sync</i>"]
-    Publisher --> End([✅ Complete])
-
-    style Start fill:#f9f,stroke:#333,stroke-width:2px
-    style End fill:#bbf,stroke:#333,stroke-width:2px
-    style Planner fill:#e1f5fe,stroke:#01579b
-    style Retriever fill:#fff9c4,stroke:#fbc02d
-    style Evaluator fill:#fce4ec,stroke:#c62828
-    style Writer fill:#e8f5e9,stroke:#2e7d32
-    style Studio fill:#f3e5f5,stroke:#6a1b9a
-    style Publisher fill:#e0f2f1,stroke:#00695c
-```
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e16c219f-ff84-406b-92fc-53cf9864570b" alt="SAGE Workflow" width="800">
+</p>
 
 ### Node Breakdown
 
@@ -248,6 +224,8 @@ OLLAMA_BASE_URL=http://localhost:11434
 
 # NotebookLM Notebook ID (from your NotebookLM URL)
 NOTEBOOKLM_NOTEBOOK_ID=your_notebook_id_here
+# You can get this by running the command in your terminal
+## ------- notebooklm list -------
 
 # Obsidian vault path (absolute path recommended)
 OBSIDIAN_VAULT_PATH=/path/to/your/obsidian/vault
