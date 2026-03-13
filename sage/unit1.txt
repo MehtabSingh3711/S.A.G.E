@@ -1,0 +1,6 @@
+Introduction to NLP : History and evolution of NLP
+Key NLP tasks such as tokenization, tagging, parsing, classification, and generation, 
+Challenges in processing natural language including ambiguity and context dependence, 
+Overview of rule-based, statistical, and neural NLP paradigms, 
+Transition from traditional NLP pipelines to deep learning and transformer-based systems,
+Introduction to modern NLP libraries and frameworks.

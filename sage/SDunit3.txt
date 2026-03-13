@@ -1,0 +1,3 @@
+Low-Level Design & Pattern Application, Translating requirements into low-level design 
+Responsibility-driven design , extensibility and maintainability, applying design patterns in real systems
+Low-level design case studies : Parking Lot System, Elevator System, ATM System, Movie Ticket, Booking System

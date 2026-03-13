@@ -1,0 +1,14 @@
+Word Level : Corpora and their construction
+Regular expressions 
+Finite state automata
+Morphological parsing
+Spelling error detection and correction
+Words and word classes
+Part-of-speech tagging
+Syntactic Analysis : Context-free grammar
+Constituency parsing
+Dependency parsing
+Probabilistic parsing
+Semantic Analysis: Meaning representation
+Ambiguity resolution
+Word sense disambiguation

@@ -1,0 +1,17 @@
+Introduction to system design and low-level design (LLD)
+Low Level Design
+High Level Design
+Procedural vs Object-Oriented Programming
+Classes and Objects
+Encapsulation
+Abstraction
+Inheritance
+Polymorphism
+Association
+Aggregation
+Composition 
+IS-A vs HAS-A relationships
+Object lifecycle
+Constructors
+this keyword
+Object Interactions

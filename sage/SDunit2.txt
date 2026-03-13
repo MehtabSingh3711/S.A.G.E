@@ -1,0 +1,7 @@
+Introduction to UML 
+Class diagram and Sequence diagram
+SOLID principles
+DRY and KISS principles
+Creational design patterns : Singleton, Factory, Builder
+Behavioral design patterns : Strategy, Observer
+Structural design patterns : Adapter, Proxy
