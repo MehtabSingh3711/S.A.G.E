@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/sage_banner.png" alt="SAGE Banner" width="800">
+  <img src="[assets/sage_banner.png](https://github.com/user-attachments/assets/ea0d715a-031e-4775-88c4-ff836f484174)" alt="SAGE Banner" width="800">
 </p>
 
 <h1 align="center">🦉 SAGE</h1>
